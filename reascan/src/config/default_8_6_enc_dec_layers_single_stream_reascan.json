@@ -1,0 +1,50 @@
+{
+    "visualization": "True",
+    "with_coattention": "NA",
+    "interleave_self_attn": "NA",
+    "interleave_order": "NA",
+
+    "v_loc_size": 2, 
+    "v_feature_size": 25, 
+    
+    "vocab_size": 39, 
+    "target_vocab_size": 10,
+    "max_position_embeddings": 50, 
+    "target_max_position_embeddings": 105, 
+    
+    "num_lang_layers": "NA",
+    "l_hidden_size": 128, 
+    "l_hidden_act": "NA", 
+    "l_num_attention_heads": "NA", 
+    "l_intermediate_size": "NA",
+    "l_hidden_dropout_prob": 0.1,
+    "t_biattention_id": "NA", 
+    "l_attention_probs_dropout_prob": "NA", 
+    
+    "num_vis_layers": "NA",
+    "v_hidden_size": 128, 
+    "v_hidden_act": "NA", 
+    "v_num_attention_heads": "NA", 
+    "v_intermediate_size": "NA", 
+    "v_hidden_dropout_prob": 0.1,
+    "v_biattention_id": "NA", 
+    "v_attention_probs_dropout_prob": "NA", 
+    
+    "num_encoder_layers": 8,
+    "encoder_hidden_size": 128, 
+    "encoder_hidden_act": "gelu", 
+    "encoder_num_attention_heads": 8, 
+    "encoder_intermediate_size": 256, 
+    "encoder_hidden_dropout_prob": 0.1,
+    
+    "num_decoder_layers": 6,
+    "decoder_hidden_size": 128, 
+    "decoder_hidden_act": "gelu", 
+    "decoder_num_attention_heads": 8, 
+    "decoder_intermediate_size": 256, 
+    "decoder_hidden_dropout_prob": 0.1,
+    
+    "bi_hidden_size": "NA", 
+    "bi_num_attention_heads": "NA", 
+    "bi_intermediate_size": "NA"
+}

@@ -1,0 +1,7 @@
+{
+    "v_loc_size": 2, 
+    "v_feature_size": 25, 
+    
+    "vocab_size": 39, 
+    "max_position_embeddings": 50
+}
