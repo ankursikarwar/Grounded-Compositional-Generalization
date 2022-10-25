@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://2022.emnlp.org/"><img src="https://img.shields.io/badge/EMNLP-2022-blueviolet"></a>
+  <a href="https://arxiv.org/abs/2210.12786"><img src="http://img.shields.io/badge/Paper-PDF-red.svg"></a>
   <a href="https://github.com/ankursikarwar/Grounded-Compositional-Generalization/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-green">
   </a>
@@ -72,12 +73,21 @@ $ python src.main --mode train --test_split custom_comp --train_fname train.json
 
 ##### Note: Jupyter notebooks for generating custom splits based on ReaSCAN, gSCAN, and GSRR datasets are in code/reascan/
 
-<!-- #### Citation -->
+#### Citation
 
-<!-- If you use our data or code, please cite our work:
+If you use our data or code, please cite our work:
 
 ```
-
-``` -->
+@misc{https://doi.org/10.48550/arxiv.2210.12786,
+  doi = {10.48550/ARXIV.2210.12786},
+  url = {https://arxiv.org/abs/2210.12786},
+  author = {Sikarwar, Ankur and Patel, Arkil and Goyal, Navin},
+  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {When Can Transformers Ground and Compose: Insights from Compositional Generalization Benchmarks},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+```
 
 For any clarification, comments, or suggestions please contact [Ankur](mailto:ankursikarwardc@gmail.com) or [Arkil](http://arkilpatel.github.io/).
